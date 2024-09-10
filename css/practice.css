@@ -34,7 +34,7 @@ body header {
   position: sticky;
   top: 0;
   z-index: 10;
-  box-shadow: 0 2px 2px 1px rgb(0, 0, 0);
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 body header section.logo {
   flex: 2 1 400px;
@@ -189,6 +189,9 @@ body footer section.links a img {
 }
 
 @media screen and (max-width: 700px) {
+  body header {
+    position: relative;
+  }
   body header section.logo {
     flex-direction: column;
   }

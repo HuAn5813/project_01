@@ -38,7 +38,7 @@ body {
         position: sticky;
         top: 0;
         z-index: 10;
-        box-shadow: 0  2px 2px 1px rgba(0, 0, 0);
+        box-shadow: 0  2px 2px 1px rgba(0, 0, 0,0.1);
 
         section.logo {
             flex: 2 1 400px;
@@ -236,6 +236,7 @@ body {
 @media screen and (max-width:700px) {
     body {
         header {
+            position: relative;
             section.logo {
                 flex-direction: column;
 
