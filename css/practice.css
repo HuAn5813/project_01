@@ -31,6 +31,10 @@ body header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 2px 1px rgb(0, 0, 0);
 }
 body header section.logo {
   flex: 2 1 400px;
@@ -201,4 +205,23 @@ body footer section.links a img {
   body footer section.links a img {
     width: 9vw;
   }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(187, 145, 231);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #826d8f;
 }/*# sourceMappingURL=practice.css.map */
